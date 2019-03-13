@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "320269250004",
+    "firebase_url": "https://treeofknowledge-42d8b.firebaseio.com",
+    "project_id": "treeofknowledge-42d8b",
+    "storage_bucket": "treeofknowledge-42d8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320269250004:android:30945ceba4cd55fb",
+        "android_client_info": {
+          "package_name": "com.adhiambooyier.treeofknowledge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320269250004-oc456nhemgbbbqtimdluov8f5jbgnv4o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adhiambooyier.treeofknowledge",
+            "certificate_hash": "ee3a862a4e01bf138d980e8849615c880e8c6d61"
+          }
+        },
+        {
+          "client_id": "320269250004-an88br6ah4a848ldkg7rn21h59bkk3bl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx6qtoGtbAlCbuuMu5YfwHYUexkfkmnyg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320269250004-an88br6ah4a848ldkg7rn21h59bkk3bl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
