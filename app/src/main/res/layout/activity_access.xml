@@ -19,7 +19,7 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_gravity="center"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="30dp"
             android:src="@drawable/notebook" />
 
         <android.support.v7.widget.AppCompatTextView
@@ -39,8 +39,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:drawableStart="@drawable/ic_face_black_20dp"
-            android:drawableLeft="@drawable/ic_face_black_20dp"
+            android:drawableStart="@drawable/ic_face_white_20dp"
+            android:drawableLeft="@drawable/ic_face_white_20dp"
             android:drawablePadding="8dp"
             android:hint="First Name"
             android:inputType="text"
@@ -49,6 +49,7 @@
             android:paddingRight="20dp"
             android:paddingBottom="20dp"
             android:textColor="@android:color/black"
+            android:textColorHint="@color/colorTextGrayWhite"
             android:textSize="13sp"
             tools:ignore="RtlSymmetry" />
 
@@ -57,8 +58,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:drawableStart="@drawable/ic_face_black_20dp"
-            android:drawableLeft="@drawable/ic_face_black_20dp"
+            android:drawableStart="@drawable/ic_face_white_20dp"
+            android:drawableLeft="@drawable/ic_face_white_20dp"
             android:drawablePadding="8dp"
             android:hint="Last Name"
             android:inputType="text"
@@ -67,6 +68,7 @@
             android:paddingRight="20dp"
             android:paddingBottom="20dp"
             android:textColor="@android:color/black"
+            android:textColorHint="@color/colorTextGrayWhite"
             android:textSize="13sp"
             tools:ignore="RtlSymmetry" />
 
@@ -75,8 +77,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:drawableStart="@drawable/ic_email_black_20dp"
-            android:drawableLeft="@drawable/ic_email_black_20dp"
+            android:drawableStart="@drawable/ic_email_white_20dp"
+            android:drawableLeft="@drawable/ic_email_white_20dp"
             android:drawablePadding="8dp"
             android:hint="email"
             android:inputType="textEmailAddress"
@@ -85,6 +87,7 @@
             android:paddingRight="20dp"
             android:paddingBottom="20dp"
             android:textColor="@android:color/black"
+            android:textColorHint="@color/colorTextGrayWhite"
             android:textSize="13sp"
             tools:ignore="RtlSymmetry" />
 
@@ -93,8 +96,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:drawableStart="@drawable/ic_lock_black_20dp"
-            android:drawableLeft="@drawable/ic_lock_black_20dp"
+            android:drawableStart="@drawable/ic_lock_white_20dp"
+            android:drawableLeft="@drawable/ic_lock_white_20dp"
             android:drawablePadding="8dp"
             android:hint="password"
             android:inputType="textPassword"
@@ -103,15 +106,17 @@
             android:paddingRight="20dp"
             android:paddingBottom="20dp"
             android:textColor="@android:color/black"
+            android:textColorHint="@color/colorTextGrayWhite"
             android:textSize="13sp"
             tools:ignore="RtlSymmetry" />
+
         <android.support.v7.widget.AppCompatEditText
             android:id="@+id/txtConfirmPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:drawableStart="@drawable/ic_lock_black_20dp"
-            android:drawableLeft="@drawable/ic_lock_black_20dp"
+            android:drawableStart="@drawable/ic_lock_white_20dp"
+            android:drawableLeft="@drawable/ic_lock_white_20dp"
             android:drawablePadding="8dp"
             android:hint="password again"
             android:inputType="textPassword"
@@ -120,6 +125,7 @@
             android:paddingRight="20dp"
             android:paddingBottom="20dp"
             android:textColor="@android:color/black"
+            android:textColorHint="@color/colorTextGrayWhite"
             android:textSize="13sp"
             tools:ignore="RtlSymmetry" />
 
