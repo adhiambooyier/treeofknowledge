@@ -91,6 +91,16 @@ public class AccessActivity extends AppCompatActivity {
             }
         });
     }
+    @Override
+    protected void onStart() {
+
+        super.onStart();
+        if(auth.getCurrentUser() != null){
+            Intent i = new Intent(AccessActivity.this, MainActivity.class);
+            startActivity(i);
+            ActivityCompat.finishAffinity(AccessActivity.this);
+        }
+    }
 
     private void toggleState() {
         if (isSignIn) {
